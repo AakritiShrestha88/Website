@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-color: beige;
+}
+.container{
+    width:780px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 28px 10px;
+}
+
+header.header{
+    padding: 30px 0 25px 40px;
+    /* border: 2px solid black; */
+    
+}
+
+header.header a{
+    text-decoration: none;
+   
+}
+
+nav.menu{
+    background-color: #698474;
+    padding:6px 0 6px 40px;
+}
+nav.menu a{
+    color: #dee3e2;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Baloo Da 2', cursive;
+}
+nav.menu a:hover{
+    color: #1eb2a6;
+}
+aside{
+    float: left;
+    padding: 10px 0 0 30px;
+    width: 120px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#869843;
+    font-weight: normal;
+    font-size: 24px;
+}
+.main{
+    margin: 0 0 0 150px;
+    padding: 30px 40px 30px 0;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Georgia";
+    line-height: 17px;
+    
+}
+footer{
+    padding: 6px  0 6px 50px;
+    background-color:#d6d6d6 ;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-align: center;
+    
+}
+footer a{
+    color: #262626;
+}
+.title_bar{
+    font-size: 24px;
+    color: #444444;
+}
+.seperator{
+    color:#ffffff;
+    font-size: 12px;;
+}
+#home-image img{
+    width: 100%;
+}
+/* About page work */
+#about_page #home-image img{
+    width: 70%;
+    float: left;
+}
+#about_page #profile_info{
+    width: 20%;
+float:right;
+
+    padding-right: 30px;
+    padding-left: -40px;
+margin: 2px;
+
+}
+#about_page #profile_info h1{
+    font-size: 17px;
+    font-weight: bolder;
+    color:#698474; 
+    font-family: 'Rubik', sans-serif;
+}
+#about_page #profile_info img{
+    width: 100%;
+    height: 150px;
+    
+}
+
+
+#about_page .description{
+    clear:both;
+    padding-top: 15px;
+
+}
+/******* Contact*******/
+
+#contact #form{
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    padding:10px 10px 10px 10px;
+    box-shadow: 0px 10px 15px 5px;
+    border-radius: 5px;
+}
+#contact-heading{
+text-align: center;
+margin-top: 10px;
+}
+
+#contact #form input { 
+    width:95%;
+    border-radius: 5px;
+    height: 15px;
+    background-color: rgb(225, 236, 215);
+}
+#contact #form #message{
+    width:95%;
+    border-radius: 5px;
+  
+    background-color: rgb(236, 241, 232);
+}
+#contact #form #submit{
+    width:20%;
+    height: 26px;
+    border: 2px solid black;
+    background-color: #698474;
+    font-weight: bolder;
+    
+}
+#contact #form #submit:hover{
+    background-color: burlywood;
+}
